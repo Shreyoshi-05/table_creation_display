@@ -1,5 +1,4 @@
 .container{
-  /* width: 100vw; */
   height: 100vh;
   display: flex;
   position: relative;
@@ -15,46 +14,14 @@
   padding: 2rem;
   border-radius: 8px;
 }
-.left{
-  flex: 25;
-  /* background-color: pink; */
+.inner{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  /* border-bottom: 1px solid black; */
+  height: 2rem;
+  width: 100%;
+  display: flex;
   justify-content: space-between;
-  height: 100%;
-  border-right: 2px solid rgb(224, 221, 221);
-
-
-  .all_tables{
-    margin-top: 2rem;
-
-
-    .names{
-      padding: 0.4rem 2rem;
-      border-bottom: 2px solid  rgb(239, 238, 238) ;
-    }
-  }
-
-  button{
-    margin-bottom: 2rem;
-    padding: 0.8rem 2rem;
-    border-radius: 0.4rem;
-  }
 }
-.right{
-  flex: 75;
-
-  .nav{
-    padding: 0.4rem 2rem;
-    display: flex;
-    justify-content: end;
-
-
-    button{
-      padding: 0.5rem 1.6rem;
-      border-radius: 0.4rem;
-    }
-    border-bottom: 2px solid rgb(218, 210, 210);
-  }
+.calender{
+  display: flex;
 }
